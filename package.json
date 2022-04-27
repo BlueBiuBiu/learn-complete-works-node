@@ -1,0 +1,23 @@
+{
+  "name": "learn-complete-works-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sky",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-cors": "^0.0.16",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^10.1.1",
+    "mysql2": "^2.3.3",
+    "koa-bodyparser": "^4.3.0"
+  }
+}
